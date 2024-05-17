@@ -9,6 +9,7 @@ body {
   --font-jost: Jost;
 
   /* font sizes */
+  --font-size-5xl: 24px;
   --font-size-base: 16px;
 
   /* Colors */
@@ -20,7 +21,6 @@ body {
 
   /* Paddings */
   --padding-11xs: 2px;
-  --padding-34xl: 53px;
   --padding-9xs: 4px;
   --padding-10xs: 3px;
 }

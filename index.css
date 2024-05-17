@@ -50,7 +50,7 @@
   flex-direction: row;
   padding: 0 0 0 var(--padding-10xs);
   margin-top: -18px;
-  font-size: 24px;
+  font-size: var(--font-size-5xl);
 }
 .logo,
 .logo-wrapper,
@@ -175,7 +175,7 @@
   color: var(--color-white);
   font-family: var(--font-jost);
 }
-.carousel-child {
+.background {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -196,15 +196,12 @@
   z-index: 1;
 }
 .digital1 {
-  margin: 0 !important;
-  height: 115px;
-  width: 377px;
+  width: 353px;
   position: absolute;
-  right: 531px;
-  bottom: 869px;
-  font-size: inherit;
+  margin: 0 !important;
+  right: 543px;
+  bottom: 877px;
   font-weight: 900;
-  font-family: inherit;
   display: inline-block;
   text-shadow: 0 4px 50px rgba(0, 0, 0, 0.25);
   z-index: 4;
@@ -229,7 +226,7 @@
   top: 31px;
   transform: scale(1.079);
 }
-.carousel-item,
+.final-child,
 .wrapper-group-1 {
   height: 791px;
   width: 947.9px;
@@ -244,12 +241,12 @@
   align-items: center;
   justify-content: center;
 }
-.carousel-item {
+.final-child {
   top: -402.5px;
   right: -269.9px;
   z-index: 3;
 }
-.carousel,
+.final,
 .frame-parent {
   align-self: stretch;
   display: flex;
@@ -257,14 +254,14 @@
   flex-shrink: 0;
   max-width: 100%;
 }
-.carousel {
+.final {
   height: 794px;
   overflow: hidden;
   flex-direction: row;
   align-items: flex-end;
   position: relative;
   text-align: left;
-  font-size: 96px;
+  font-size: 90px;
   color: var(--color-white);
   font-family: var(--font-sf-pro);
 }
@@ -274,35 +271,57 @@
   debug_commit: 1de1738;
 }
 .header1 {
-  height: 122px;
   width: 1440px;
+  height: 122px;
   position: relative;
   background-color: var(--color-gray);
   display: none;
   max-width: 100%;
 }
+.for-careers {
+  font-weight: 500;
+}
+.for-careers-container,
 .vrio-digital-services {
-  width: 217px;
   position: relative;
   display: inline-block;
   z-index: 1;
 }
-.header-group {
-  flex: 1;
-  background-color: var(--color-gray);
+.for-careers-container {
+  margin: 0;
+  width: 411px;
+  font-size: inherit;
+  max-width: 100%;
+  font-family: inherit;
+}
+.vrio-digital-services {
+  width: 181px;
+}
+.vrio-digital-services-pvt-ltd-wrapper {
+  width: 411px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-34xl) 20px var(--padding-34xl) 21px;
-  box-sizing: border-box;
   max-width: 100%;
+  font-size: 10px;
+}
+.header-group {
+  flex: 1;
+  background-color: var(--color-gray);
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 20px 13px 21px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
   text-align: left;
-  font-size: 12px;
+  font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-sf-pro);
 }
 .footer,
+.header-group,
 .landing-page-03 {
   display: flex;
   justify-content: flex-start;
@@ -340,11 +359,14 @@
     box-sizing: border-box;
   }
   .digital1 {
-    font-size: 48px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 450px) {
   .digital1 {
-    font-size: 29px;
+    font-size: 27px;
+  }
+  .for-careers-container {
+    font-size: 19px;
   }
 }
