@@ -6,11 +6,13 @@
   display: none;
   max-width: 100%;
 }
+
 .frame-child {
   width: 46.5px;
   height: 40px;
   position: relative;
 }
+
 .logo-inner {
   display: flex;
   flex-direction: column;
@@ -18,6 +20,7 @@
   justify-content: flex-start;
   padding: 14px 0 0;
 }
+
 .digital,
 .vrio {
   margin: 0;
@@ -31,13 +34,16 @@
   debug_commit: 1de1738;
   white-space: nowrap;
 }
+
 .vrio {
   letter-spacing: 0.03em;
   min-width: 96px;
 }
+
 .digital {
   min-width: 94px;
 }
+
 .digital-wrapper,
 .logo,
 .logo-wrapper,
@@ -46,33 +52,40 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .digital-wrapper {
   flex-direction: row;
   padding: 0 0 0 var(--padding-10xs);
   margin-top: -18px;
   font-size: var(--font-size-5xl);
 }
+
 .logo,
 .logo-wrapper,
 .vrio-parent {
   flex-direction: column;
 }
+
 .logo,
 .logo-wrapper {
   flex-direction: row;
 }
+
 .logo {
   gap: 10.5px;
 }
+
 .logo-wrapper {
   z-index: 1;
 }
+
 .about-us1 {
   position: relative;
   display: inline-block;
   min-width: 86px;
   white-space: nowrap;
 }
+
 .about-us {
   display: flex;
   flex-direction: row;
@@ -81,11 +94,13 @@
   padding: 0 0 var(--padding-10xs);
   z-index: 1;
 }
+
 .sectors1 {
   position: relative;
   display: inline-block;
   min-width: 78px;
 }
+
 .sectors {
   display: flex;
   flex-direction: row;
@@ -94,11 +109,13 @@
   padding: 0 var(--padding-9xs) var(--padding-10xs);
   z-index: 1;
 }
+
 .services1 {
   position: relative;
   display: inline-block;
   min-width: 81px;
 }
+
 .services {
   display: flex;
   flex-direction: row;
@@ -107,11 +124,13 @@
   padding: 0 var(--padding-11xs) var(--padding-10xs) var(--padding-10xs);
   z-index: 1;
 }
+
 .clients1 {
   position: relative;
   display: inline-block;
   min-width: 71px;
 }
+
 .clients {
   display: flex;
   flex-direction: row;
@@ -120,22 +139,26 @@
   padding: 0 7px var(--padding-10xs) 8px;
   z-index: 1;
 }
+
 .careers1 {
   position: relative;
   display: inline-block;
   min-width: 77px;
 }
+
 .about-us-parent,
 .careers {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
+
 .careers {
   justify-content: flex-start;
   padding: 0 var(--padding-9xs) var(--padding-10xs) 5px;
   z-index: 1;
 }
+
 .about-us-parent {
   margin: 0;
   align-self: stretch;
@@ -146,6 +169,7 @@
   color: var(--color-white);
   font-family: var(--font-sf-pro);
 }
+
 .frame-wrapper,
 .header-parent {
   display: flex;
@@ -153,6 +177,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .frame-wrapper {
   margin: 0;
   width: 590px;
@@ -160,6 +185,7 @@
   justify-content: flex-start;
   padding: 28px 0 0;
 }
+
 .header-parent {
   align-self: stretch;
   background-color: var(--color-gray);
@@ -175,6 +201,7 @@
   color: var(--color-white);
   font-family: var(--font-jost);
 }
+
 .background {
   height: 100%;
   width: 100%;
@@ -186,6 +213,7 @@
   left: 0;
   background-color: #000;
 }
+
 .pexels-balidmr-3415148-1-icon {
   height: 1862px;
   flex: 1;
@@ -195,17 +223,26 @@
   object-fit: cover;
   z-index: 1;
 }
+
+
+
 .digital1 {
-  width: 353px;
+  /* width: 100%; */
   position: absolute;
   margin: 0 !important;
-  right: 543px;
-  bottom: 877px;
+  left: 400px;
+  bottom: 1100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 60px;
   font-weight: 900;
   display: inline-block;
   text-shadow: 0 4px 50px rgba(0, 0, 0, 0.25);
   z-index: 4;
+  text-align: center;
 }
+
 .pexels-balidmr-3415148-1-parent {
   margin-bottom: -529px;
   flex: 1;
@@ -216,6 +253,7 @@
   position: relative;
   max-width: 100%;
 }
+
 .wrapper-group-1-child {
   height: 100%;
   width: 100%;
@@ -226,6 +264,7 @@
   top: 31px;
   transform: scale(1.079);
 }
+
 .final-child,
 .wrapper-group-1 {
   height: 791px;
@@ -233,6 +272,7 @@
   position: absolute;
   margin: 0 !important;
 }
+
 .wrapper-group-1 {
   top: -62.1px;
   right: -258.9px;
@@ -241,11 +281,13 @@
   align-items: center;
   justify-content: center;
 }
+
 .final-child {
   top: -402.5px;
   right: -269.9px;
   z-index: 3;
 }
+
 .final,
 .frame-parent {
   align-self: stretch;
@@ -254,6 +296,7 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .final {
   height: 794px;
   overflow: hidden;
@@ -265,11 +308,13 @@
   color: var(--color-white);
   font-family: var(--font-sf-pro);
 }
+
 .frame-parent {
   flex-direction: column;
   align-items: flex-start;
   debug_commit: 1de1738;
 }
+
 .header1 {
   width: 1440px;
   height: 122px;
@@ -278,15 +323,18 @@
   display: none;
   max-width: 100%;
 }
+
 .for-careers {
   font-weight: 500;
 }
+
 .for-careers-container,
 .vrio-digital-services {
   position: relative;
   display: inline-block;
   z-index: 1;
 }
+
 .for-careers-container {
   margin: 0;
   width: 411px;
@@ -294,9 +342,11 @@
   max-width: 100%;
   font-family: inherit;
 }
+
 .vrio-digital-services {
   width: 181px;
 }
+
 .vrio-digital-services-pvt-ltd-wrapper {
   width: 411px;
   display: flex;
@@ -306,6 +356,7 @@
   max-width: 100%;
   font-size: 10px;
 }
+
 .header-group {
   flex: 1;
   background-color: var(--color-gray);
@@ -320,6 +371,7 @@
   color: var(--color-white);
   font-family: var(--font-sf-pro);
 }
+
 .footer,
 .header-group,
 .landing-page-03 {
@@ -327,6 +379,7 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .footer {
   align-self: stretch;
   height: 110px;
@@ -337,6 +390,7 @@
   debug_commit: 1de1738;
   max-width: 100%;
 }
+
 .landing-page-03 {
   width: 100%;
   height: 1024px;
@@ -350,22 +404,27 @@
   line-height: normal;
   letter-spacing: normal;
 }
+
 @media screen and (max-width: 750px) {
   .frame-wrapper {
     display: none;
   }
+
   .header-parent {
     padding-right: 27px;
     box-sizing: border-box;
   }
+
   .digital1 {
     font-size: 45px;
   }
 }
+
 @media screen and (max-width: 450px) {
   .digital1 {
     font-size: 27px;
   }
+
   .for-careers-container {
     font-size: 19px;
   }
