@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-sf-pro: "SF Pro";
+  --font-jost: Jost;
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #152638;
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-34xl: 53px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+}
