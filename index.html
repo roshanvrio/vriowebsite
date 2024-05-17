@@ -15,6 +15,17 @@
       href="https://fonts.googleapis.com/css2?family=SF Pro:wght@400;500;700;900&display=swap"
     />
   </head>
+   <script>
+      const texts = ["DIGITAL", "SUSTAINABLE", "TRANSFORMATION", "WE ARE OUT OF  STEALTH MODE", "COMMING SOON 🚀"];
+      let index = 0;
+
+      function changeText() {
+          index = (index + 1) % texts.length;
+          document.getElementById("text").textContent = texts[index];
+      }
+
+      setInterval(changeText, 5000);
+    </script>
   <body>
     <div class="landing-page-03">
       <main class="frame-parent">
@@ -67,7 +78,7 @@
               src="./public/pexelsbalidmr3415148-1@2x.png"
             />
 
-            <div class="digital1">DIGITAL</div>
+            <div class="digital1" id="text">DIGITAL</div>
           </div>
           <div class="wrapper-group-1">
             <img
